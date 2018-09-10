@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url(/assets/fonts/helvetica.ttf);
+}
+
+@font-face {
+  font-family: 'Cereal';
+  src: url(/assets/fonts/cereal.woff);
+}
+
+$color-background: #003345;
+$color-primary: #DBDE00;
+
+$font-primary:'Cereal', 'Helvetica Neue';
+
+@import './_default';
+@import './_index';
