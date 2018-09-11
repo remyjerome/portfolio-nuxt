@@ -32,6 +32,9 @@ html {
   position: absolute;
   background: $color-background;
 }
+h1 {
+  font-size: 60px !important;
+}
 // LOGO TOP
 .logo {
   display: block;
@@ -54,7 +57,7 @@ html {
   margin-top: -120px;
   width: 100%;
 }
-#nav_bar nav a.active, #nav_bar nav a:hover {
+#nav_bar nav a.active-link, #nav_bar nav a:hover {
   color: $color-primary;
 }
 #nav_bar nav a {
@@ -65,5 +68,48 @@ html {
   height: 51px;
   position: relative;
   text-decoration: none;
+}
+#nav_bar nav a span {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+#nav_bar nav a::after {
+  content: "";
+  font-size: 9px;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease-out 0s;
+}
+#nav_bar nav a:first-child::after {
+  content: "HOME";
+}
+#nav_bar nav a:first-child + a::after {
+  content: "ABOUT";
+}
+#nav_bar nav a:first-child + a + a::after {
+  content: "SKILLS";
+}
+#nav_bar nav a:first-child + a + a + a::after {
+  content: "MY WORK";
+}
+#nav_bar nav a:first-child + a + a + a + a::after {
+  content: "CONTACT";
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+#nav_bar nav a:hover span {
+  opacity: 0;
+
+}
+#nav_bar nav a:hover:after{
+  opacity: 1;
 }
 // SOCIAL
