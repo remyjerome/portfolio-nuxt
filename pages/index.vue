@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <div class="container home-page">
     <div class="text-zone">
         <TitleH1 title="Bonjour,Je suis Rémy,développeur web."/>
        <h2>Front End Developpeur / Vue JS / React JS</h2>
@@ -61,7 +61,7 @@ c-76 9 -138 45 -220 126 -84 83 -124 142 -255 372 -48 85 -89 156 -90 158 -2
               </g>
           </svg>
       </div>
-  </section>
+  </div>
 </template>
 
 <script>
