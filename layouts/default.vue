@@ -23,23 +23,28 @@
                 </nuxt-link>
             </nav>
             <ul>
-                <li><a href="https://twitter.com/JeznachJacek" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://pl.linkedin.com/pub/jacek-jeznach/40/9b6/a9" target="_blank"><i
-                        class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://www.facebook.com/pages/JJ-Front-End-Web-Developer/1065969103428564"
-                       target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://jacekjeznach.com/feed/" target="_blank"><i class="fa fa-rss"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" target="_blank"><i
+                        class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"
+                       target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-rss"></i></a></li>
             </ul>
         </div>
         <div>
             <nuxt/>
         </div>
+    <ParticlesJS/>
     </div>
 </template>
 <script>
-  export default {
-    components: {}
+import ParticlesJS from '../components/ParticlesJS'
+export default {
+  name:'default',
+  components: {
+    ParticlesJS
   }
+}
 </script>
 <style lang="scss">
 </style>

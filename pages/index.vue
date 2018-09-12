@@ -1,7 +1,7 @@
 <template>
   <div class="container home-page">
     <div class="text-zone">
-        <TitleH1 title="Bonjour,Je suis Rémy,développeur web."/>
+        <TitleH1 title="Rémy JEROME,développeur web."/>
        <h2>Front End Developpeur / Vue JS / React JS</h2>
        <a href="" class="flat-button">Contact</a>
      </div>

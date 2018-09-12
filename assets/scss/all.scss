@@ -168,7 +168,7 @@ body {
   color: #A1A1A1;
 }
 .lang a:hover,
-.lang a.active {
+.lang a.nuxt-link-exact-active {
   color: $color-primary;
 }
 
@@ -215,7 +215,7 @@ body {
 
 }
 
-#nav_bar nav a.active,
+#nav_bar nav a.nuxt-link-exact-active,
 #nav_bar nav a:hover {
   color:$color-primary;
 }

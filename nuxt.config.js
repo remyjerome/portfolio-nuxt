@@ -9,7 +9,9 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href:'https://cdn.linearicons.com/free/1.0.0/icon-font.min.css' },
-      { rel: 'stylesheet', href:'https://unpkg.com/normalize.css@8.0.0/normalize.css' }
+      { rel: 'stylesheet', href:'https://unpkg.com/normalize.css@8.0.0/normalize.css' },
+      { rel:"stylesheet", href:"https://use.fontawesome.com/releases/v5.3.1/css/all.css", integrity:"sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU", crossorigin:"anonymous" }
+
     ]
   },
 
@@ -32,9 +34,5 @@ module.exports = {
   css: [
     '@/assets/scss/main.scss'
   ],
-
-  router: {
-    linkActiveClass: 'active'
-  }
 }
 
